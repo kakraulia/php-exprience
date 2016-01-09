@@ -75,19 +75,16 @@ class Child extends Person
 $p = new Child('dileep', 'Holy city');
 
 $p->setName('sunil');
-// $p->setName('Kakrulia');
-$p->setage('24');
-// $p->setScholling('holy schools');
-// echo strtoupper($p->getName());
 
-// echo $p->getage();
+$p->setage('24');
+
 $p->getDetails();
 echo '<br/>';
 
 
 $p1 = new Person('Lalit');
 
-// $p1->setName('sdfc');
+
 $p1->setage('24');
 echo $p1->getName();
 echo $p1->getage();
